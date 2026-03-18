@@ -1,3 +1,107 @@
-body {
-    background-color: aquamarine;
+body{
+    background-color: #ffffff;
+    color:antiquewhite;
+    font-family: Helvetica;
+    font-size: 40px;
+    text-align: center;
+}
+h1{
+    background-color: #ffffff;
+    color: #ff4400;
+    font-family: Helvetica;
+    font-size: 80px;
+    text-align: center;
+}
+
+ul{
+    background-color: #ffffff;
+    color: #ff4400;
+    font-family: Helvetica;
+    font-size: 40px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+p{
+    background-color: #ffffff;
+    color: #ff4400;
+    font-family: Helvetica;
+    font-size: 40px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.container{
+    display: flex;
+
+}
+
+.esquerda{
+    width: 50%;
+}
+.direita{
+    width: 50%;
+}
+
+.centro{
+    width:100%;
+    text-align: center;
+    display: flex-start;
+    align-items: flex-start;
+    padding-top: 10px;
+
+
+}
+
+
+.imagem{
+    text-align: center;
+
+}
+
+.nome{
+    background-color: #ffffff;
+    color: #ff4400;
+    font-family: Helvetica;
+    font-size: 80px;
+    text-align: center;
+}
+
+.telefone{
+    background-color: #ffffff;
+    color: #ff4400;
+    font-size: 20px;
+    text-align: left;
+    right: 20px;
+    top: 20px;
+    margin-top: 0;
+    white-space: nowrap;
+    margin-bottom: 5px;
+}
+
+.e-mail{
+     background-color: #ffffff;
+    color: #ff4400;
+    font-size: 20px;
+    text-align: left;
+    right: 20px;
+    top: 20px;
+    margin-top: 0;
+    white-space: nowrap;
+    margin-bottom: 5px; 
+}
+
+.github{
+     background-color: #ffffff;
+    color: #ff4400;
+    font-size: 20px;
+    text-align: right;
+    margin-top: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between; /* separa esquerda e direita */
+    align-items: center; /* alinha verticalmente */
+    padding: 10px 20px;
 }
