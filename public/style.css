@@ -1,34 +1,33 @@
 body{
-    background-color: #ffffff;
-    color:antiquewhite;
-    font-family: Helvetica;
+    background-color: black ;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
     text-align: center;
+    line-height: 1.5;
 }
 h1{
-    background-color: #ffffff;
     color: #ff4400;
-    font-family: Helvetica;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 80px;
     text-align: center;
+    line-height: 1.5;
 }
 
 ul{
-    background-color: #ffffff;
     color: #ff4400;
-    font-family: Helvetica;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
     text-align: left;
-    line-height: 1.5;
+    line-height: 2.0;
 }
 
 p{
-    background-color: #ffffff;
     color: #ff4400;
-    font-family: Helvetica;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
     text-align: left;
-    line-height: 1.5;
+    line-height: 2.0
 }
 
 .container{
@@ -60,17 +59,15 @@ p{
 }
 
 .nome{
-    background-color: #ffffff;
     color: #ff4400;
-    font-family: Helvetica;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 80px;
     text-align: center;
 }
 
 .telefone{
-    background-color: #ffffff;
     color: #ff4400;
-    font-size: 20px;
+    font-size: 40px;
     text-align: left;
     right: 20px;
     top: 20px;
@@ -80,9 +77,8 @@ p{
 }
 
 .e-mail{
-     background-color: #ffffff;
     color: #ff4400;
-    font-size: 20px;
+    font-size: 40px;
     text-align: left;
     right: 20px;
     top: 20px;
@@ -92,16 +88,25 @@ p{
 }
 
 .github{
-     background-color: #ffffff;
     color: #ff4400;
-    font-size: 20px;
+    font-size: 40px;
     text-align: right;
-    margin-top: 0;
+    margin-top: -115px;
+    right: 20px;
+    top: 20px;
 }
 
 .header{
     display: flex;
     justify-content: space-between; /* separa esquerda e direita */
     align-items: center; /* alinha verticalmente */
-    padding: 10px 20px;
+    position: static;
+}
+
+.linkedin{
+    color: #ff4400;
+    font-size: 40px;
+    text-align: right;
+    margin-top: 10px;
+    
 }
