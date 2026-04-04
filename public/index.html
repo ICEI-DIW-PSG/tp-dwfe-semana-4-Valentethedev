@@ -5,15 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="artur" content="width=device-width, initial-scale=1.0">
-    <title>Artur Gonçalves Araújo Valente</title>
+    <title>Site dos Carros</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Corinthia&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <h1 class="title">Site dos Carros</h1>
-            <h2 class="subtitle">Esse é um projeto desenvolvido por Artur Valente, aluno da faculdade PUC MINAS. O objetivo é mostrar a história e curiosidades de alguns automóveis.</h2>
-        </header>
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Site dos Carros</h1>
+    </header>
+    <nav>
+        <h1 class="subtitle">Esse é um projeto desenvolvido por Artur Valente, aluno da faculdade PUC MINAS. O objetivo
+            é mostrar a história e curiosidades de alguns automóveis.</h1>
+    </nav>
+    <section>
         <div class="container">
             <div class="esquerda">
                 <h2 class="marcas">Marcas</h2>
@@ -38,9 +43,22 @@
                     <li>Marca 6</li>
                 </ul>
             </div>
-            <div class="direita">
+            <main>
                 <img src="images/classic-small-car.webp" width="1200">
-            </div>    
-        </div>    
-    </body>
+                <img src="images/D_Q_NP_2X_715585-MLB83382394704_042025-E-vw-fusca-1500-1971-placa-preta.webp" width="1200">
+            </main>
+        </div>
+    </section>
+    <footer>
+        <form id="ideias">
+            <h1>Qual carro deve ter a história contada aqui no site?</h1>
+            <div class="linha">
+                <input type="text" id="nome" placeholder="nome do carro">
+                <button type="submit">Enviar</button>
+            </div>
+            
+        </form>
+    </footer>
+</body>
+
 </html>
